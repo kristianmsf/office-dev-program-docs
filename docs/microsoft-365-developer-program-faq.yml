@@ -1,0 +1,333 @@
+### YamlMime:FAQ
+metadata:
+  title: Microsoft 365 Developer Program FAQ
+  description: Frequently asked questions about the Microsoft 365 Developer Program.
+  ms.date: 06/06/23
+  ms.localizationpriority: high
+    
+title: Microsoft 365 Developer Program FAQ
+summary: The following are frequently asked questions about the Microsoft 365 Developer Program.
+
+
+sections:
+  - name: Ignored
+    questions:
+      - question: |
+          What is the Microsoft 365 Developer Program and who should join it?
+        answer: |
+          The Microsoft 365 Developer Program is designed to help you build people-centric, cross-platform productivity experiences that extend Microsoft 365. Join our program to get access to the tools, documentation, training, experts, and community events that you need to build great solutions for Microsoft 365 products and technologies, including:
+          
+          - [Excel](https://developer.microsoft.com/en-us/excel), [Outlook](https://developer.microsoft.com/en-us/outlook), [Word](https://developer.microsoft.com/en-us/word), and [PowerPoint](https://developer.microsoft.com/en-us/powerpoint) web add-ins
+          - [SharePoint](https://developer.microsoft.com/en-us/sharepoint)
+          - [Microsoft Teams](https://developer.microsoft.com/en-us/microsoft-teams)
+          - [Microsoft Graph](https://developer.microsoft.com/en-us/graph)
+          
+          As a program member, you can get a free Microsoft 365 developer subscription with 25 user licenses to use to build your solutions. This subscription will remain active for as long as you're actively developing and deploying solutions.
+          
+          For more information, see [Join the Microsoft 365 Developer Program](microsoft-365-developer-program.md) and [Build Microsoft 365 solutions](build-microsoft-365-solutions.md).
+          
+      - question: |
+          What account can I use to sign up for the Microsoft 365 Developer Program?
+        answer: |
+          You can sign up for the developer program by using one of the following account types:
+          
+          - **Microsoft account** (created by you for personal use) - Provides access to all consumer-oriented Microsoft products and cloud services, such as Outlook (Hotmail), Messenger, OneDrive, MSN, Xbox Live, or Microsoft 365. Signing up for an Outlook.com mailbox automatically creates a Microsoft account. After a Microsoft account is created, it can be used to access consumer-related Microsoft cloud services or Azure. 
+          - **Work account** (issued by an admin for business use) - Provides access to all small, medium, and enterprise business-level Microsoft cloud services, such as Azure, Microsoft Intune, or Microsoft 365. When you sign up to one of these services as an organization, a cloud-based directory is automatically provisioned in Microsoft Entra ID to represent your organization. For more information, see [Manage your Microsoft Entra directory](/azure/active-directory/active-directory-administer).
+          - **Visual Studio ID** (created for your Visual Studio Professional or Enterprise subscriptions) - We recommend that you use this option to join the developer program from within the Visual Studio Gallery to get the full benefits as a Visual Studio subscriber. You can also link your Visual Studio subscription to your Microsoft 365 developer sandbox during the setup process.
+          
+      - question: |
+          How many Microsoft 365 Developer Program accounts can I create?
+        answer: |
+          You can only have one Microsoft 365 Developer Program account associated with your phone number. If you need to set up a new Developer Program account, for example to use a different email account or account type, you must delete your existing account first. To delete your account, sign in to your [dashboard](https://developer.microsoft.com/en-us/microsoft-365/profile) and choose **Delete Profile**.
+
+          Note that if you delete your Developer Program account, you can only get a subscription after you have had your existing subscription for more than 60 days.
+
+      - question: |
+          How can I get a Microsoft 365 developer subscription via the Developer Program?  
+        answer: |
+          When you join the Microsoft 365 Developer Program, you qualify to get a free Microsoft 365 E5 developer subscription. This is a special subscription designed to be used for application development only. For more information, see [Set up a Microsoft 365 developer subscription](microsoft-365-developer-program-get-started.md).
+      
+      - question: |
+          How many Microsoft 365 developer subscriptions can I get via the Developer Program?  
+        answer: |
+          You can have only one Microsoft 365 developer subscription through your membership in the Developer Program. If you want a new developer subscription, see [How can I get a new subscription?](#how-can-i-get-a-new-subscription-).
+          
+      - question: |
+          What ID do I use to sign in to the Developer Program dashboard?
+        answer: |
+          Use your member ID to sign in to the Developer Program dashboard to access information about your subscription. This is the Microsoft account or Microsoft Entra-enabled email that you used to sign in when you joined the program.
+
+      - question: |
+          What ID do I use to sign in to my developer subscription?
+        answer: |
+          Use the administrator ID that you created when you set up your developer subscription. You can find your administrator ID on the subscription tile on the [Developer Program dashboard](https://aka.ms/DevProgramDashboard).
+
+      - question: |
+          Does the Microsoft 365 E5 developer subscription include the same capabilities that the regular Microsoft 365 E5 subscription includes?
+        answer: |
+          The Microsoft 365 E5 developer subscription has the same licensing and capabilities that a regular Microsoft 365 E5 subscription includes except that in Exchange Online, inbound connectors for mailflow are not supported, and you cannot purchase additional services via your tenant admin account. Any additional services (like Azure) must be purchased using your personal/enterprise account (for example, {myusername}@{myorg}.com rather than admin@{mytestdomain}.onmicrosoft.com), and then moved into the subscription.
+
+      - question: |
+          What's included in the developer subscription?
+        answer: |
+          If you created your subscription after August 25, 2019, you have a Microsoft 365 E5 Developer subscription with 25 user licenses. Customers who joined the program before August 25, 2019, have an Office 365 E3 Developer subscription with 25 user licenses.
+          
+          The Office 365 E3 Developer subscription includes the following:
+          
+          - [Exchange Online (Plan 2)](https://products.office.com/exchange/compare-microsoft-exchange-online-plans)
+          - [Flow for Office 365](https://flow.microsoft.com/pricing/)
+          - [Information Protection for Office 365 - Standard](https://products.office.com/en-us/business/azure-information-protection-for-office-365)
+          - [Microsoft Forms (Plan E5)](https://support.office.com/article/Frequently-asked-questions-about-Microsoft-Forms-495c4242-6102-40a0-add8-df05ed6af61c)
+          - [Microsoft Planner](https://products.office.com/compare-all-microsoft-office-products?tab=2)
+          - [Microsoft Search](https://products.office.com/en-us/business/intelligent-search?tab=Discovery)
+          - [Microsoft Stream for Office 365 E5 SKU](https://products.office.com/business/office-365-enterprise-e5-business-software)
+          - [Microsoft Teams](https://products.office.com/business/office-365-enterprise-e5-business-software)
+          - [Mobile Device Management for Office 365](https://support.office.com/article/Set-up-Mobile-Device-Management-MDM-in-Office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
+          - [Office 365 ProPlus](https://products.office.com/business/office-365-proplus-business-software)
+          - [Office for the web](/office365/servicedescriptions/office-online-service-description/office-online-service-description)
+          - [PowerApps for Office 365](https://powerapps.microsoft.com/pricing/)
+          - [SharePoint Online for Developer](https://products.office.com/SharePoint/compare-sharepoint-plans)
+          - [Skype for Business Online (Plan 2)](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
+          - [Sway](https://sway.com/)
+          - [To-Do (Plan 3)](https://todo.microsoft.com)
+          - [Whiteboard (Plan 2)](https://products.office.com/en-us/microsoft-whiteboard/digital-whiteboard-app)
+          
+          The Microsoft 365 E5 Developer subscription includes all the apps that are included in the Office 365 E3 Developer subscription, plus the following new features:  
+          
+          - Advanced analytics with Power BI  
+          - Enterprise Mobility + Security (EMS) for compliance and information protection  
+          - Office 365 Advanced Threat Protection 
+          - Microsoft Entra ID for building advanced identity and access management solutions  
+          
+          The Microsoft 365 E5 Developer subscription includes the following: 
+          
+          - Microsoft Entra ID P1 
+          - Microsoft Entra ID P2 
+          -	Azure Advanced Threat Protection 
+          -	Azure Information Protection Premium P1 
+          -	Azure Information Protection Premium P2 
+          -	Customer Lockbox 
+          -	Exchange Online (Plan 2) 
+          -	Flow for Office 365 
+          -	Information Protection for Office 365 - Premium 
+          -	Information Protection for Office 365 - Standard 
+          -	Microsoft Entra Rights 
+          -	Microsoft Azure Multi-Factor Authentication 
+          -	Microsoft Cloud App Security 
+          -	Microsoft Forms (Plan E5) 
+          -	Microsoft Intune 
+          -	Microsoft MyAnalytics (Full) 
+          -	Microsoft Planner 
+          -	Microsoft StaffHub 
+          -	Microsoft Stream for O365 E5 SKU 
+          -	Microsoft Teams 
+          -	Mobile Device Management for Office 365 
+          -	Microsoft Purview eDiscovery (Premium) 
+          -	Office 365 Advanced Security Management 
+          -	Office 365 Advanced Threat Protection (Plan 1) 
+          -	Office 365 Advanced Threat Protection (Plan 2) 
+          -	Office 365 Privileged Access Management 
+          -	Office 365 ProPlus 
+          -	Office Online 
+          -	Phone System 
+          -	Power BI Pro 
+          -	PowerApps for Office 365 Plan 3 
+          -	SharePoint Online (Plan 2) 
+          -	Skype for Business Online (Plan 2) 
+          -	Sway 
+          -	To-Do (Plan 3) 
+          -	Whiteboard (Plan 3) 
+          -	Yammer Enterprise 
+          
+          You can determine whether you have a Microsoft 365 E5 subscription or an Office 365 E3 subscription on the subscription tile on your [dashboard](https://developer.microsoft.com/en-us/microsoft-365/profile). The tile will show either E3 or E5 under the subscription domain name.
+
+      - question: |     
+          What Power Automate capabilities are included in the developer subscription?
+        answer: |
+          Limited Power Automate use rights are included with select Office 365 licenses to allow users to customize and extend Office 365 for personal productivity scenarios. For enterprise scenarios, Microsoft recommends standalone licenses.
+          
+          Microsoft 365 licenses include the following Power Automate capabilities:
+          - Create and run automated, scheduled, and button flows.
+          - Access to [standard connectors](/power-platform/admin/power-automate-licensing/types#standard-connectors).
+          - 2,000 [Power Platform requests/day](/power-platform/admin/power-automate-licensing/types#power-platform-requests). 10,000 requests/day during the [transition period](/power-platform/admin/power-automate-licensing/types#transition-period).
+          
+          The following Power Automate capabilities aren't included:
+          - Access to [premium connectors](/power-platform/admin/power-automate-licensing/types#premium-connectors), except in Dataverse for Teams environments. For details, see [Dataverse capabilities](/power-platform/admin/pricing-billing-skus#dataverse-capabilities-with-microsoft-365-licenses).
+          - [Business process flows](/power-platform/admin/power-automate-licensing/types#business-process-flows).
+          - [Custom connectors](/power-platform/admin/power-automate-licensing/types#custom-connectors).
+          - [On-premises gateways](/power-platform/admin/power-automate-licensing/types#on-premises-gateway).
+          - [Robotic Process Automation](/power-platform/admin/power-automate-licensing/types#robotic-process-automation).
+          - [AI Builder capacity](/power-platform/admin/power-automate-licensing/types#ai-builder-credits).
+
+      - question: |
+          What Power BI capabilities are included in the developer subscription?
+        answer: |
+          The Microsoft 365 E5 developer subscriptions includes a Power BI Pro license. It does not include Power BI Premium.
+      
+      - question: |
+          How can I get a new subscription?
+        answer: |
+          You can only have one Microsoft 365 developer subscription associated with your Developer Program account. If you want to get a new instant or configurable sandbox, you can [delete your account](#how-many-microsoft-365-developer-program-accounts-can-i-create-) and set up a new one. Note that you can only get a new subscription after you have had your subscription for more than 60 days.
+      
+      - question: |
+          Why can't I sign in to my Developer Program dashboard?
+        answer: |
+          We require members of the Microsoft 365 Developer Program to adhere to the [Terms and conditions](terms-and-conditions.md). In some instances, we may not allow members who violate our terms to sign in to the program.
+         
+      - question: |
+          I'm unable to sign in to my instant sandbox with my admin account. What can I do?
+        answer: |
+          If you set up your instant sandbox between May 31, 2023 and June 5, 2023, you will not be able to access your tenant due to a technical issue. Please go to your [Microsoft 365 Developer Program dashboard](https://aka.ms/DevProgramDashboard), sign in with your Developer Program account, and choose **Set up subscription** to get your new instant sandbox.  
+          After you set up your new instant sandbox, please sign in with your admin account within 14 days. We apologize for the inconvenience.
+
+      - question: |
+          I forgot my email address. How can I sign in to the Developer Program?
+        answer: |
+          If you don't remember the email address you used to sign in to the program, you can use your phone number to recover it. For example, to recover a Microsoft account:
+          - On the **Sign in** page, choose **Sign-in options**.
+          - On the **Sign-in options** page, choose **Forgot my username**.
+          - On the **Recover your username** page, enter the phone number that you used to join the Microsoft 365 Developer Program.
+          - Enter the security code that you received.
+          - Select the email address that you used to join the Developer Program, and choose **Sign in**.
+      
+      - question: |
+          Does the subscription also include a subscription to Azure?
+        answer: |
+          This offer does not include a subscription to Azure. Commercial transactions, such as purchasing additional paid services, are not supported on your Microsoft 365 Developer Program subscription; it is only for developing and testing your solutions. 
+          
+          To receive free access to Azure services, you can [create a free Azure account](https://azure.microsoft.com/free/). 
+          
+      - question: |
+          How many user licenses does the developer subscription include?
+        answer: |
+          Your Office 365 E3 or Microsoft 365 E5 developer subscription includes 25 user licenses, including the administrator, for development purposes only. Using this subscription for any purpose other than application development is a violation of the license agreement. For more details about the licensing restrictions, see the [terms of use](terms-and-conditions.md).
+
+      - question: |
+          Can I control and manage the user licenses in the subscription?
+        answer: |
+          Your subscription includes 25 user accounts plus one administrator account. If you set up an instant sandbox or installed the [Users sample data pack](install-sample-packs.md#install-the-users-sample-data-pack) on your configurable sandbox, 16 of the 25 user accounts are prepopulated for you. You can manage the users in your subscription via the admin center.
+
+      - question: |
+          How long is my subscription good for, and when does it expire?
+        answer: |
+          Your subscription is good for 90 days and is renewable based on valid developer activity. If you're using your subscription for development, it will be renewed regularly. You can find the expiration date, along with your subscription name, on your [Microsoft 365 Developer Program dashboard](https://aka.ms/DevProgramDashboard).
+          
+          If you're joining the program through Visual Studio Enterprise or Visual Studio Professional, your subscription is automatically renewed until your Visual Studio subscription expires. 
+          
+          <a name="renew-subscription"> </a>
+          
+      - question: |
+          Can I share my developer subscription with my team?
+        answer: |
+          As a member of the Microsoft 365 Developer Program, you are entitled to one free Microsoft 365 developer subscription. Your subscription is associated with your developer program account. You can't transfer owership of your subscription to a different account.  
+      
+      - question: |
+          Why don't you offer a one-year subscription?
+        answer: |
+          In April 2019, we transitioned to a new model where your subscription can be renewed perpetually every 90 days if you're actively using it for development. We believe that this model ensures that developers who are actively developing solutions have a subscription for as long as they need one. If you're developing frequently, your subscription never expires; it is automatically extended. If you're developing for a short time, and your subscription expires and is deleted, you can sign up for a new one. 
+          
+          If you prefer to have a subscription that is available for a longer time, we recommend that you get the Visual Studio Professional or Visual Studio Enterprise subscription. These programs include a free Microsoft 365 developer subscription that is good for the life of your Visual Studio subscription. To access this, go to [Visual Studio | My Benefits](https://my.visualstudio.com/benefits). For more information, contact [Visual Studio customer service](https://www.visualstudio.com/subscriptions/support/). 
+          
+      - question: |
+          How do you determine whether a subscription can be renewed?
+        answer: |
+          We use a set of algorithms and telemetry that we get from your activity in the Microsoft 365 Developer Program and on your Office 365 E3 or Microsoft 365 E5 developer subscription to determine whether you are actively developing. We check these regularly to update your status and determine whether your subscription should be extended. 
+          
+          If you think we somehow missed tracking your development activity accurately, you can let us know via your dashboard. To submit a form that tells us how you are using your subscription for development, in the dashboard warning, choose the **Let us know** link, as shown in the following image. We will review your request and let you know if you qualify for an extension. 
+          
+          <img alt="Screenshot of the subscription expiration text box with the let us know link highlighted" src="images/appeals-ux-for-qa.jpg" width="500"> 
+          
+      - question: |
+          How do you define development activity?
+        answer: |
+          Your activity in the Developer Program and on your developer subscription determine whether you are actively developing and whether your subscription should be extended. 
+          
+          For more information about the types of activities that we track, see the [terms of use](terms-and-conditions.md). 
+          
+      - question: |
+          When my subscription is about to expire, can I extend it?
+        answer: |
+          The only way that you can extend your subscription is to do valid developer activity. If you're using your subscription to develop custom solutions, your subscription will expire and will eventually be deleted. 
+          
+          For more information, see [Subscription expiration and renewal](subscription-expiration-and-renewal.md).
+          
+      - question: |
+          If my subscription is going to expire, how much time do I have before it is deleted?
+        answer: |
+          You have 30 days after your subscription expires to migrate any data. For the next 30 days, only the admin will have access to the subscription, and on day 60, the subscription and all data will be deleted.
+          
+          <a name="account-types"> </a>
+          
+      - question: |
+          How can I migrate from an Office 365 E3 subscription to a Microsoft 365 E5 subscription?
+        answer: |
+          Currently, only new Microsoft 365 Developer Program members will get a Microsoft 365 E5 Developer subscription automatically. Existing users will be offered an option to migrate to a Microsoft 365 E5 subscription. 
+
+          If you choose to migrate to a Microsoft 365 E5 subscription, you can use the free tool [Microsoft Mover](https://mover.io/) to migrate your data. See also the following resources:
+
+          - [How to migrate mailboxes from one Microsoft 365 tenant to another](/exchange/mailbox-migration/migrate-mailboxes-across-tenants)
+          - [Using PowerShell to perform a staged migration to Office 365](/microsoft-365/enterprise/use-powershell-to-perform-a-staged-migration-to-microsoft-365?view=o365-worldwide)
+          - [Migrate your content to Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online)
+
+      - question: |
+          Should I choose an instant sandbox or a configurable sandbox?
+        answer: |
+          If you choose an instant sandbox, you can cut your sandbox configuration time from days to seconds. The Microsoft 365 instant sandbox comes pre-provisioned with Microsoft Teams, SharePoint, Outlook, and Office. It also includes licenses for 24 test users plus one admin, and the latest Microsoft 365 apps for your PC and Mac, including Power Apps, Power BI, Enterprise Mobility + Security, Office 365 Advanced Threat Protection, and Microsoft Entra ID.
+
+          In addition, you get pre-installed sample data, including the new Teams sample data pack, which simulate a small corporate environment to help you build solutions across the Microsoft 365 platform. For details, see Developer sandbox sample data.
+          
+          If you choose a configurable sandbox, you will have an empty sandbox that you must populate with sample data. This sandbox can take up to two days to provision. You can choose to install the sample data packs that are available on your developer program dashboard. You can customize your domain name with this option. 
+ 
+      - question: |
+          How can I find the Teams sample data in my instant sandbox?
+        answer: |
+          To see the Microsoft Teams sample data, go to **Teams** in your Microsoft 365 E5 subscription. On the Teams tab, you'll see some pre-created teams with chats from sample users in the **Mark 8 Project Team**. The App Studio/Dev Portal app is pre-installed and pinned to the navigation pane.
+
+      - question: |
+          Why should I link my GitHub account?
+        answer: |
+          When you join the Microsoft 365 Developer Program, on your [My settings](https://developer.microsoft.com/en-us/microsoft-365/profile/settings/preferences) page, you can link your GitHub account to your developer program account. Linking your GitHub account will accrue toward the renewal of your Microsoft 365 developer sandbox subscription. You can also choose to unlink your account by going to the [Accounts linked](https://developer.microsoft.com/en-us/microsoft-365/profile/settings/accounts-linked) section of your **My settings** page.
+            
+      - question: |
+          Can I choose whether to have an Office 365 E3 or a Microsoft 365 E5 subscription?
+        answer: |
+          Currently, new Developer Program members are offered only a Microsoft 365 E5 subscription. Existing members with an Office 365 E3 subscription will have the option to keep their current subscription and continue to renew it if they don't need the new capabilities offered in Microsoft 365 E5, or do a one-time upgrade to a Microsoft 365 E5 subscription. Developer Program members can only have one subscription.  
+          
+      - question: |
+          Is the Microsoft 365 developer subscription subject to the EU Data Boundary for the Microsoft Cloud (EUDB)?
+        answer: |
+          No. The free Microsoft 365 developer subscription is only subject to the [Terms and conditions](terms-and-conditions.md) and not the EUDB commitments. As part of the provisioning process, however, you have the option to choose the country/region for your subscription.
+      
+      - question: |
+          As a Microsoft Partner, can I receive a subscription? 
+        answer: |
+          Yes, you can follow [these instructions](microsoft-365-developer-program.md) to join the Microsoft 365 Developer Program and set up a Microsoft 365 developer subscription. However, if you already have a Visual Studio Enterprise or Visual Studio Professional subscription, you can get a Microsoft 365 developer subscription as a benefit. To access this, go to [Visual Studio | My Benefits](https://my.visualstudio.com/benefits). For more information, contact [Visual Studio customer service](https://www.visualstudio.com/subscriptions/support/). 
+          
+      - question: |
+          As a full-time Microsoft employee, can I receive a subscription?
+        answer: |
+          Microsoft employees cannot sign up for this offer. All Microsoft full-time employees have access to a free Visual Studio subscription that includes access to a Microsoft 365 E5 developer subscription. You can access this benefit at [Visual Studio | My Benefits](https://my.visualstudio.com/benefits).
+          
+      - question: |
+          As a vendor working at Microsoft, do I qualify for a subscription?
+        answer: |
+          Yes, you can follow [these instructions](microsoft-365-developer-program.md) to join the Microsoft 365 Developer Program and set up a Microsoft 365 developer subscription. But even for vendors, this subscription is designed to be used _for application development only_. If you are not doing valid development activity, your subscription will not be renewed.
+          
+      - question: |
+          Is the Microsoft 365 developer subscription available in my language?
+        answer: |
+          The Microsoft 365 developer subscription is only offered in English.
+
+      - question: |
+          How do I leave the Microsoft 365 Developer Program?
+        answer: |
+          If you decide that you no longer want to participate in the Microsoft 365 Developer Program, you can end your subscription and leave the program.
+          
+            > [!WARNING]
+            > The following steps will erase all of your profile information. You will lose any data stored in your developer subscription that is not backed up elsewhere.
+          
+          1. Sign in to the Microsoft 365 Developer Program.
+          
+          2. Choose **Delete Profile**.
+          
+          3. In the **Delete Profile** confirmation box, choose **Delete**.
