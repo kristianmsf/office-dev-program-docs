@@ -8,7 +8,7 @@ ms.localizationpriority: high
 
 What do you want to build with your Microsoft 365 developer subscription? Depending on what you are interested in, you can do a lot of different things. Following are some of the products and technology areas that you can start with.
 
-## Microsoft Teams
+## Microsoft Teams 
 
 Microsoft Teams is a chat-based workspace that integrates with the apps and services that people use to get work done together. The Microsoft Teams developer platform makes it easy for you to integrate your own service, whether you develop custom apps for your enterprise or SaaS applications for teams around the world.
 
