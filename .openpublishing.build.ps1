@@ -16,3 +16,4 @@ echo "run build core script with parameters: $parameters"
 & "$buildCorePowershellDestination" "$parameters"
 exit $LASTEXITCODE
 
+
